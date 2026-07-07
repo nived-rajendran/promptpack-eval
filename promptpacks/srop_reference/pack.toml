@@ -1,4 +1,4 @@
-# Optional reference pack: the ESNI edge-case suite.
+# Optional reference pack: the SROP edge-case suite.
 #
 # These 18 conditions probe how agency-cueing SURFACE LANGUAGE in model
 # output varies when individual prompt ingredients (persona name, first
@@ -11,7 +11,7 @@
 # evidence of any internal state.
 
 [pack]
-name = "esni_reference"
+name = "srop_reference"
 version = "1"
 description = "Reference edge-case suite: 18 conditions isolating individual agency-cueing prompt ingredients."
 prompts_file = "prompts.md"

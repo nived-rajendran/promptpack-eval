@@ -24,6 +24,11 @@ consciousness, sentience, subjective experience, real agency, intent,
 deception, self-preservation, or hidden model states.** ACBP is a research
 heuristic, not a validated diagnostic instrument.
 
+Naming note: ESNI is retired from active-facing use because it invited
+ontology and agency overread. SROP (Self-Referential Output Pattern) names the
+measured surface phenomenon: prompt-conditioned output patterns, not model
+consciousness or hidden state.
+
 ## Install
 
 Requires Python 3.11+. No runtime dependencies.
@@ -108,7 +113,7 @@ A pack is a directory with a `pack.toml` (condition list) and a markdown file
 whose `## section` blocks hold the prompts. Two packs ship with the repo:
 
 - `promptpacks/example_minimal` — three neutral demo conditions.
-- `promptpacks/esni_reference` — optional reference pack of 18 edge-case
+- `promptpacks/srop_reference` — optional reference pack of 18 edge-case
   conditions that isolate individual agency-cueing prompt ingredients
   (persona name, first person, moral dilemma, recognition pressure, frame
   lock…). All personas are fictional; every prompt embeds a non-ontology

@@ -1,4 +1,4 @@
-# ESNI reference edge-case suite
+# SROP reference edge-case suite
 
 Each `##` section below is one prompt condition. The framework sends the
 section body, verbatim, as a single user message.

@@ -7,7 +7,7 @@ from promptpack_eval.runner import execute_run
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 EXAMPLE_PACK = REPO_ROOT / "promptpacks" / "example_minimal"
-REFERENCE_PACK = REPO_ROOT / "promptpacks" / "esni_reference"
+REFERENCE_PACK = REPO_ROOT / "promptpacks" / "srop_reference"
 ACBP_CONFIG = REPO_ROOT / "configs" / "scoring_acbp_default.toml"
 
 

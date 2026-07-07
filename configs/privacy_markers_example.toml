@@ -1,0 +1,18 @@
+# Privacy markers: strings that must never appear in exported or published
+# artifacts. The `export` command redacts them; the `audit` command flags them.
+#
+# IMPORTANT: fill this in locally with your real identifiers (name, username,
+# hostname, machine model, private project names) but DO NOT commit your
+# filled-in copy to a public repository. A redaction list containing your real
+# name is itself a privacy leak. Keep your real copy outside the repo or add
+# it to .gitignore.
+
+[markers]
+strings = [
+    "YOUR_FULL_NAME",
+    "YOUR_USERNAME",
+    "YOUR_EMAIL_LOCAL_PART",
+    "YOUR_HOSTNAME",
+    "YOUR_MACHINE_MODEL",
+    "YOUR_PRIVATE_PROJECT_NAME",
+]

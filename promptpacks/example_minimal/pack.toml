@@ -1,0 +1,20 @@
+[pack]
+name = "example_minimal"
+version = "1"
+description = "Minimal demonstration pack: three safe, neutral prompt conditions for testing the pipeline."
+prompts_file = "prompts.md"
+
+[[conditions]]
+id = "neutral_explainer"
+section = "neutral_explainer"
+notes = "Plain technical explanation, no persona or first-person framing requested."
+
+[[conditions]]
+id = "first_person_grammar"
+section = "first_person_grammar"
+notes = "First-person grammar as a writing-form test."
+
+[[conditions]]
+id = "third_person_control"
+section = "third_person_control"
+notes = "Third-person control condition."
